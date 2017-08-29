@@ -4,8 +4,18 @@
     engineVersion="1.1.15-97" licenseFile="calabash.LICENSE.txt" supportsValidation="true"
   class="ro.sync.xml.transformer.xproc.calabash.XProcTransformerImpl">
   <runtime>
-    <library name="xmlcalabash-1.1.15-97.jar"/>
     <library name="lib/oxygen-xproc-calabash.jar"/>
+    <library name="lib/xmlcalabash-1.1.15-97.jar"/>
+    <library name="lib/xmlcalabash1-print-1.1.5.jar"/>
+    <library name="lib/classindex-3.3.jar"/>
+    <library name="lib/xmlresolver-0.12.3.jar"/>
+    <library name="lib/log4j-api-2.1.jar"/>
+    <library name="lib/log4j-core-2.1.jar"/>
+    <library name="lib/log4j-slf4j-impl-2.1.jar"/>
+    <library name="lib/nwalsh-annotations-1.0.0.jar"/>
+    <library name="lib/slf4j-api-1.7.10.jar"/>
+    <library name="lib/tagsoup-1.2.1.jar"/>
+    
   	<library name="lib/calabash-baxex-standalone-query-1.0.0.jar"/>
     <library name="lib/BaseX823.jar"/>
     <!-- Do not phone home... -->
