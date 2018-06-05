@@ -5,7 +5,7 @@
 
   <groupId>arkamy.xml</groupId>
   <artifactId>calabash-baxex-standalone-query</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
 
   <name>basex-standalone-query</name>

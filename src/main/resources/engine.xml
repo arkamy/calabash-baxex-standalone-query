@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE engine SYSTEM "../engine.dtd">
 <engine name="Calabash XProc - BaseX" description="Calabash XProc 1.1.15-97" vendor="Syncro Soft SRL" version="1.0"
-    engineVersion="1.1.15-97" licenseFile="calabash.LICENSE.txt" supportsValidation="true"
+  engineVersion="1.1.15-97" licenseFile="calabash.LICENSE.txt" supportsValidation="true"
   class="ro.sync.xml.transformer.xproc.calabash.XProcTransformerImpl">
   <runtime>
     <library name="lib/oxygen-xproc-calabash.jar"/>
@@ -16,8 +16,9 @@
     <library name="lib/slf4j-api-1.7.10.jar"/>
     <library name="lib/tagsoup-1.2.1.jar"/>
     
-  	<library name="lib/calabash-baxex-standalone-query-1.0.0.jar"/>
+  	<library name="lib/calabash-baxex-standalone-query-1.0.1.jar"/>
     <library name="lib/BaseX823.jar"/>
+
     <!-- Do not phone home... -->
     <system-property name="com.xmlcalabash.phonehome" value="false"/>
     <system-property name="com.xmlcalabash.html-parser" value="tagsoup"/>

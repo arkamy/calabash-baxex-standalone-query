@@ -15,6 +15,8 @@ import org.basex.query.value.Value;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
+import com.xmlcalabash.core.XMLCalabash;
+
 /****************************************************************************/
 /*  File:       StandaloneQuery.java                                        */
 /*  Author:     F. Georges - H2O Consulting                                 */
@@ -41,6 +43,10 @@ import net.sf.saxon.s9api.XdmNode;
  * @author Florent Georges
  * @date   2011-08-31
  */
+@XMLCalabash(
+        name = "bxs:query",
+        type = "{http://arkamy/xml/calabash-baxex-standalone-query}query")
+
 public class XQueryOnStandaloneBaseX
         extends DefaultStep
 {
